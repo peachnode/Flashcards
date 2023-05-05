@@ -1201,6 +1201,15 @@ files:
 
 
   learner_created: false
+- name: capitals.txt
+  visible: true
+  learner_created: true
+- name: capitalsNew.txt
+  visible: true
+  learner_created: true
 feedback_link: https://hyperskill.org/projects/83/stages/462/implement#comment
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Fri, 05 May 2023 20:43:05 UTC"
 record: -1
