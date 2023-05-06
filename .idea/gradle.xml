@@ -18,6 +18,13 @@
             <option value="$PROJECT_DIR$/Flashcards (Kotlin)/task/build/reports/tests" />
             <option value="$PROJECT_DIR$/Flashcards (Kotlin)/task/build/test-results" />
             <option value="$PROJECT_DIR$/Flashcards (Kotlin)/task/build/tmp" />
+            <option value="$PROJECT_DIR$/Topics/Data class/Allowance for functions" />
+            <option value="$PROJECT_DIR$/Topics/Data class/Generated functions" />
+            <option value="$PROJECT_DIR$/Topics/Data class/Not overridable" />
+            <option value="$PROJECT_DIR$/Topics/Data class/Room mystery" />
+            <option value="$PROJECT_DIR$/Topics/Data class/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Data class/copy() usage" />
+            <option value="$PROJECT_DIR$/Topics/Data class/toString() modification" />
             <option value="$PROJECT_DIR$/Topics/Lambda expressions/ Not  predicate" />
             <option value="$PROJECT_DIR$/Topics/Lambda expressions/Capturing variable" />
             <option value="$PROJECT_DIR$/Topics/Lambda expressions/Polynomial" />
@@ -28,6 +35,13 @@
             <option value="$PROJECT_DIR$/Topics/Map/Theory" />
             <option value="$PROJECT_DIR$/Topics/Mutable List/Remove us" />
             <option value="$PROJECT_DIR$/Topics/Mutable List/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Null safety/Elvis throwing exceptions" />
+            <option value="$PROJECT_DIR$/Topics/Null safety/Fake operator" />
+            <option value="$PROJECT_DIR$/Topics/Null safety/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Repeating blocks/Grades" />
+            <option value="$PROJECT_DIR$/Topics/Repeating blocks/Maximum element divisible by 4" />
+            <option value="$PROJECT_DIR$/Topics/Repeating blocks/Repeat by value" />
+            <option value="$PROJECT_DIR$/Topics/Repeating blocks/Theory" />
             <option value="$PROJECT_DIR$/Topics/The Math library/Fourth root" />
             <option value="$PROJECT_DIR$/Topics/The Math library/Theory" />
             <option value="$PROJECT_DIR$/util" />

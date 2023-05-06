@@ -67,19 +67,15 @@ fun remove() {
 
 }
 
-fun export() {
-    println("File name:")
-    val name: String = readln()
-    File(name).delete()
+fun export(file: String) {
+    File(file).delete()
     for (card in box) {
-        File(name).appendText("${card.term};${card.definition};${card.mistakes}\n")
+        File(file).appendText("${card.term};${card.definition};${card.mistakes}\n")
     }
     println("${box.size} cards have been saved.")
 }
 
-fun import() {
-    println("File name:")
-    val file: String = readln()
+fun import(file: String) {
     try {
         val lines = File(file).readLines()
         val importBox = mutableMapOf<String, String>()
@@ -124,16 +120,35 @@ fun readln(): String {
     return s
 }
 
-fun main() {
+fun main(args: Array<String>) {
+    val it = args.iterator()
+    var export_file:String =""
+    while(it.hasNext()){
+        when(it.next()){
+            "-import" -> import(it.next())
+            "-export" -> export_file = it.next()
+        }
+    }
     while (true) {
         println("Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):")
         when (readln()) {
             "add" -> add()
             "remove" -> remove()
-            "import" -> import()
-            "export" -> export()
+            "import" -> {
+                println("File name:")
+                import(readln())
+            }
+            "export" -> {
+                println("File name:")
+                export(readln())
+            }
             "ask" -> ask()
-            "exit" -> break
+            "exit" -> {
+                if(export_file!=""){
+                    export(export_file)                }
+
+                break
+            }
             "log" -> saveLog()
             "hardest card" -> hardestCard()
             "reset stats" -> resetStats()

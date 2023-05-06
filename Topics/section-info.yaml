@@ -3,3 +3,6 @@ content:
 - Lambda expressions
 - The Math library
 - Mutable List
+- Null safety
+- Repeating blocks
+- Data class
